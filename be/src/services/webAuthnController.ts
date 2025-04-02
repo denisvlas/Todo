@@ -11,7 +11,7 @@ import {
   PasswordAuthRequest,
   VerifyAuthRequest,
   VerifyRegRequest,
-} from "../types";
+} from "../types/types";
 
 export const getAuthOptions: RequestHandler = async (
   req,
