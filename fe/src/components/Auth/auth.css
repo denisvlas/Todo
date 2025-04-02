@@ -1,0 +1,159 @@
+.auth-container {
+  background: #e1eedd;
+  width: 50%;
+  max-width: 500px;
+  min-width: 400px;
+  height: 100vh;
+  margin: 30px 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.auth-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auth-method-selection {
+  height: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+.username-step,
+.registration-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.login-selector {
+  width: 100%;
+}
+.form-group {
+  width: 100%;
+}
+#username {
+  font-size: 391x;
+  width: 100%;
+  padding: 0;
+}
+.input-group {
+  width: 100%;
+}
+.reg-form label {
+  font-size: 15px;
+  margin-top: 20px;
+  color: black;
+  text-align: start;
+}
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 40px; */
+  width: 100%;
+  gap: 20px;
+}
+
+.reg-form input {
+  font-size: 18px;
+  padding-bottom: 15px;
+  background: none;
+  outline: none;
+  border-bottom: 2px solid #908e8e;
+  border-radius: 0;
+}
+
+button {
+  width: 45%;
+  height: 50px;
+  background: #557356;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.active {
+  background: #f0a04b;
+  color: #183a1d;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.mode-selector {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.method-buttons {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.message {
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #557356;
+  width: 300px;
+  height: 30px;
+}
+.info {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #557356;
+  margin-top: 20px;
+}
+
+.password-auth {
+  width: 100%;
+}
+
+.back-btn {
+  position: absolute;
+  top: 3%;
+  left: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.back-btn:hover {
+  color: #9cb89d;
+  transition: all 0.2s ease;
+}
+
+
+
+
+.button-group{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.registration-complete{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
